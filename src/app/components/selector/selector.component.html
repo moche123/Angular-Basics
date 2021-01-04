@@ -1,0 +1,11 @@
+<h1>SELECTORS</h1>
+<h2>Selecciona el color de fondo: {{seleccionado}} </h2>
+
+<div id="divisor">
+    
+    <select [value]="seleccionado" (change)="seleccionarTarget($event)">
+        <option value="red">Rojo</option>
+        <option value="green">Verde</option>
+        <option value="yellow">Amarillo</option>
+    </select>    
+</div>

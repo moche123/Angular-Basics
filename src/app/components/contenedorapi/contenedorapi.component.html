@@ -1,0 +1,13 @@
+  <!-- TRABAJANDO CON APIS -->
+  <h1>{{title}}</h1>
+  <h3>Cantidad: {{users.length}}</h3>
+  <input type="number" #newcode>
+  <button (click)="ingresarCodigo(newcode.value)">INGRESAR AL HIJO</button>
+  <app-traerapi
+    [data] = "user"
+    [codigo] = "code"
+    *ngFor = "let user of users"
+    (borrar) = "BorrarUsuario(user.id)"
+  >
+
+  </app-traerapi>

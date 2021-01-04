@@ -1,0 +1,10 @@
+<h3>TRABAJANDO CON NG CONTAINER, NG TEMPLATE</h3>
+<ng-container *ngIf="ismostrado;else vacio">
+    <h4>Contenido Mostrado</h4>
+</ng-container>
+<ng-template #vacio>
+    <h4>Contenido vacío</h4>
+</ng-template>
+<button (click)="ismostrado=!ismostrado">
+CAMBIAR
+</button>
