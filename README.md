@@ -1,3 +1,6 @@
+#WELCOME 😅
+You can find some basic Angular examples to see how it works, each component contains the basic sctructure... ¡Enjoy it!.  Don't forget asking me for something is incomprehensible
+
 # App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
